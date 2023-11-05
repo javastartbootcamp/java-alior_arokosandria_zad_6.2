@@ -1,9 +1,9 @@
 package pl.javastart.task;
 
-abstract class Component {
-    protected String modelName;
-    protected String manufacturer;
-    protected String serialNumber;
+abstract class Component{
+    private String modelName;
+    private String manufacturer;
+    private String serialNumber;
 
     public Component(String modelName, String manufacturer, String serialNumber) {
         this.modelName = modelName;
