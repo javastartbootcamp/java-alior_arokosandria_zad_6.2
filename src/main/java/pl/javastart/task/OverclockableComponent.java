@@ -4,10 +4,10 @@ abstract class OverclockableComponent extends Component {
     private int temperature;
     private int clockParametr;
 
-    public OverclockableComponent(String modelName, String manufacturer, String serialNumber, int temperature) {
+    public OverclockableComponent(String modelName, String manufacturer, String serialNumber, int temperature, int clockParametr) {
         super(modelName, manufacturer, serialNumber);
         this.temperature = temperature;
-        this.clockParametr = 100;
+        this.clockParametr = clockParametr;
     }
 
     public int getTemperature() {
