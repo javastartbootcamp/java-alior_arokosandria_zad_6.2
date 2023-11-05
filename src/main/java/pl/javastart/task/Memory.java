@@ -19,7 +19,4 @@ public class Memory extends OverclockableComponent {
         setTemperature(getTemperature() + TEMP);
         setClockParametr(getClockParametr() + CLOCK);
     }
-
-    }
-
-
+}
