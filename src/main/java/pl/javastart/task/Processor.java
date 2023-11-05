@@ -6,7 +6,6 @@ public class Processor extends Component implements Overclockable {
     private int clockProcessorAdd;
     private static final int MAXTEMPERATURE = 300;
 
-
     public Processor(String modelName, String manufacturer, String serialNumber) {
         super(modelName, manufacturer, serialNumber);
         this.clockProcessor = 3000;
