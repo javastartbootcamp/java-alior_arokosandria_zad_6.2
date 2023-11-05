@@ -6,7 +6,6 @@ public class Processor extends OverclockableComponent {
     private static final int TEMP = 10;
     private static final int CLOCK = 100;
 
-
     public Processor(String modelName, String manufacturer, String serialNumber, int temperature, int clockParametr) {
         super(modelName, manufacturer, serialNumber, temperature, clockParametr);
     }
